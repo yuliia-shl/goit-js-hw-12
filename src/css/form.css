@@ -32,10 +32,3 @@
     line-height: 1.5;
     color: #fff;
 }
-
-.gallery-img {
-    border: 1px solid #808080;
-    width: 360px;
-    height: 200px;
-    object-fit: cover;
-}

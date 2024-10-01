@@ -1,11 +1,3 @@
-.image-info {
-    border-bottom: 1px solid #808080;
-    border-left: 1px solid #808080;
-    border-right: 1px solid #808080;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .gallery {
     display: flex;
     gap: 24px;
@@ -18,20 +10,20 @@
 }
 
 .gallery-item {
-    width: 360px;
+    width: 358px;
+    border: 1px solid #808080;
 }
 
 .gallery-img {
     object-fit: cover;
-    border-top: 1px solid #808080;
-    border-left: 1px solid #808080;
-    border-right: 1px solid #808080;
 }
 
 .image-info {
     display: flex;
     padding: 4px 20px;
     height: 40px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .image-item {
