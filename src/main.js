@@ -8,7 +8,7 @@ const searchInput = document.querySelector('.search-input');
 const gallery = document.querySelector('.gallery');
 const loader = document.querySelector('.loader');
 
-const API_KEY = '46159699-3637bafd8e7308a1e0528cb6d';
+const API_KEY = '46159699-3637bafd8e7308a1e0528cb6';
 const BASE_URL = 'https://pixabay.com/api/';
 
 let lightbox = new SimpleLightbox('.gallery a', {
