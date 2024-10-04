@@ -7,6 +7,7 @@
     gap: 24px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 32px;
 }
 
 .gallery-item {
@@ -155,6 +156,20 @@
     100% {
         content: "100%"
     }
+}
+
+.load-more-btn {
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    min-width: 125px;
+    background: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
 }
 
 .hidden {
