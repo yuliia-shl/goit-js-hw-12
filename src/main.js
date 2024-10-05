@@ -14,6 +14,7 @@ let totalImg = 0;
 
 searchForm.addEventListener('submit', async event => {
   event.preventDefault();
+  page = 1;
   searchValue = searchInput.value.trim();
   if (searchValue === '') {
     iziToast.warning({
